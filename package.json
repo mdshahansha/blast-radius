@@ -19,7 +19,7 @@
   "scripts": {
     "build": "tsc -p .",
     "test": "npm run build && node --test dist/test/*.test.js",
-    "demo": "npm run build && node dist/src/cli.js examples/demo-app/migrations/20260928_rename_full_name.sql --src examples/demo-app"
+    "demo": "npm run build && node dist/src/cli.js examples/demo-app/migrations/20260928_rename_full_name.sql --src examples/demo-app --fail-on never"
   },
   "keywords": [
     "database",
